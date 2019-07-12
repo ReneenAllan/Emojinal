@@ -30,6 +30,7 @@
                                 <state key="normal" title="⛅️"/>
                                 <connections>
                                     <action selector="cloudy:" destination="BYZ-38-t0r" eventType="touchUpInside" id="R5c-Xb-GhM"/>
+                                    <action selector="showMessage:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uKL-bE-sza"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lkv-NT-N6m">
@@ -38,6 +39,7 @@
                                 <state key="normal" title="🌧"/>
                                 <connections>
                                     <action selector="Rainy:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BBl-qe-QEz"/>
+                                    <action selector="showMessage:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CyF-DW-WTZ"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hV3-Mn-yw1">
@@ -45,6 +47,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="60"/>
                                 <state key="normal" title="❄️"/>
                                 <connections>
+                                    <action selector="showMessage:" destination="BYZ-38-t0r" eventType="touchUpInside" id="R7Q-hW-nDS"/>
                                     <action selector="snow:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dWa-BF-Zbx"/>
                                 </connections>
                             </button>
@@ -53,6 +56,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="60"/>
                                 <state key="normal" title="💨"/>
                                 <connections>
+                                    <action selector="showMessage:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8Dw-zJ-9g0"/>
                                     <action selector="windy:" destination="BYZ-38-t0r" eventType="touchUpInside" id="o1x-AS-69o"/>
                                 </connections>
                             </button>
@@ -61,6 +65,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="60"/>
                                 <state key="normal" title="⛈"/>
                                 <connections>
+                                    <action selector="showMessage:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mjG-hr-k2Z"/>
                                     <action selector="thunder:" destination="BYZ-38-t0r" eventType="touchUpInside" id="h2g-kO-JsM"/>
                                 </connections>
                             </button>
@@ -70,6 +75,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="60"/>
                                 <state key="normal" title="☀️"/>
                                 <connections>
+                                    <action selector="showMessage:" destination="BYZ-38-t0r" eventType="touchUpInside" id="321-RZ-ZNv"/>
                                     <action selector="sunny:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cad-MF-132"/>
                                 </connections>
                             </button>

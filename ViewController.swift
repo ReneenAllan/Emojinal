@@ -10,6 +10,12 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    let emojis = ["☀️" : "Whip out your sunglasses and sandals, but dont forget your SPF!", "⛅️" : "Might not need the sunglasses, but watch those clouds for changes", "🌧" : "Definitely wouldn't wear sandals. Maybe an umbrella or raincoat.", "⛈" : "Be Careful when driving! Wouldn't really go out, but.. If you must USE AN UMBRELLA & WEAR A COAT!", "💨" : "Wouldn't chose today to do your hair. Probably wear a light jacket.", "❄️" : "Bundle up, it's cold/flu season! Wear a thick coat + winter accessories."]
+    
+    @IBAction func showMessage(_ sender: UIButton) {
+        let selectedEmotion = sender.titleLabel?.text
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
@@ -43,7 +49,7 @@ class ViewController: UIViewController {
 
 
     @IBAction func thunder(_ sender: UIButton) {
-        let alertController = UIAlertController(title: "Thunder Storms", message: "Be Careful when driving! Wouldn't really go out, but.. If you must USE AN UMBRELLA & WEAR A COAT", preferredStyle: UIAlertController.Style.alert)
+        let alertController = UIAlertController(title: "Thunder Storms", message: "Be Careful when driving! Wouldn't really go out, but.. If you must USE AN UMBRELLA & WEAR A COAT!", preferredStyle: UIAlertController.Style.alert)
 
         alertController.addAction(UIAlertAction(title: "Yikes!", style: UIAlertAction.Style.default, handler: nil))
         
